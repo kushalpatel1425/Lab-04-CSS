@@ -1,0 +1,57 @@
+img {
+    width: 70em;
+    height: 30em;
+    filter: contrast(85%);
+    filter: brightness(1);
+    text-align: center;
+    max-width: 90%; /*To set the width of the header img to 90% */
+}
+
+.wrapper {
+    width: 80%; /*To set the width of div.wrapper to 80% */
+    background-color: rgb(243, 221, 194);
+    margin: auto;
+    border: 2.2px solid #f9f105;
+}
+
+h1,
+h2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+h1,
+main>h2,
+h3,
+ul {
+    color: rgb(249, 87, 87);
+}
+
+body {
+    padding: 35px;
+    width: 97%;
+    background-image: url(/marek-piwnicki-urmnC74otpA-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-size: 17px;
+    margin:auto;  
+}
+
+#heading {
+    text-align: center;
+}
+
+p {
+    color: rgb(24, 192, 243);
+}
+
+li:nth-of-type(odd) {
+    font-weight: bold;
+}
+/*To make img responsive */
+@media (max-width:1000px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
